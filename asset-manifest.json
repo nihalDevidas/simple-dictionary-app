@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/simple-dictionary-app/static/css/main.7675acc8.css",
+    "main.js": "/simple-dictionary-app/static/js/main.0ea2c89c.js",
+    "index.html": "/simple-dictionary-app/index.html",
+    "main.7675acc8.css.map": "/simple-dictionary-app/static/css/main.7675acc8.css.map",
+    "main.0ea2c89c.js.map": "/simple-dictionary-app/static/js/main.0ea2c89c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7675acc8.css",
+    "static/js/main.0ea2c89c.js"
+  ]
+}

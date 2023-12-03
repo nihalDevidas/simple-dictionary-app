@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/simple-dictionary-app/static/css/main.7675acc8.css",
-    "main.js": "/simple-dictionary-app/static/js/main.0ea2c89c.js",
+    "main.css": "/simple-dictionary-app/static/css/main.e00c7496.css",
+    "main.js": "/simple-dictionary-app/static/js/main.fbe82dee.js",
     "index.html": "/simple-dictionary-app/index.html",
-    "main.7675acc8.css.map": "/simple-dictionary-app/static/css/main.7675acc8.css.map",
-    "main.0ea2c89c.js.map": "/simple-dictionary-app/static/js/main.0ea2c89c.js.map"
+    "main.e00c7496.css.map": "/simple-dictionary-app/static/css/main.e00c7496.css.map",
+    "main.fbe82dee.js.map": "/simple-dictionary-app/static/js/main.fbe82dee.js.map"
   },
   "entrypoints": [
-    "static/css/main.7675acc8.css",
-    "static/js/main.0ea2c89c.js"
+    "static/css/main.e00c7496.css",
+    "static/js/main.fbe82dee.js"
   ]
 }

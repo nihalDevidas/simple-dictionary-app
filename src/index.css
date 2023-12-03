@@ -1,0 +1,99 @@
+*{
+    padding:0;
+    margin:0
+}
+
+.navBar{
+   
+    padding: 20px 0px;
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(48, 47, 47);
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+    color:rgb(232, 239, 239);
+}
+
+.left-section{
+   
+    font-size: 19px;
+    display:flex;
+    justify-content: space-between;
+    width:145px;
+    margin-right: 30px;
+    font-weight:600;
+    color:rgb(232, 239, 239);
+}
+
+
+.search-con{
+    
+    padding-top: 35px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.search-con > div > input{
+    width:270px;
+    padding:7px 0px;
+    outline: none;
+}
+
+.search-con > div > button{
+    
+    padding:8px 8px;
+    padding-bottom: 9px;
+    font-size: 15px;
+    background-color: rgb(48, 47, 47);
+    color:rgb(232, 239, 239);
+    border:none;
+}
+.search-con > div > input::placeholder{
+    font-size: 25px;
+}
+
+
+.disp-con{
+    padding:20px 30px; 
+    background-color: rgb(229, 233, 233);   
+    
+}
+.rootword{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(48, 47, 47);
+    padding:8px 8px;
+}
+.audio{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.parts{
+    padding:8px 8px; 
+    font-size: 19px;
+}
+.spt{
+    font-weight: 600;
+    color: rgb(48, 47, 47);
+    font-size: 22px;
+}
+.phto{
+    font-size: 19px;
+}
+/* for nav link */
+a{
+    color:rgb(232, 239, 239);
+    text-decoration: none;
+}
+
+.hist-a{
+    font-weight: 600;
+    color: rgb(48, 47, 47);
+    font-size: 19px;
+    display: block;
+    text-decoration: underline;
+}

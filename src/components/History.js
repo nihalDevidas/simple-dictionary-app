@@ -1,20 +1,24 @@
-import React from 'react'
-import {useSelector} from "react-redux"
+import React,{useEffect} from 'react'
+import { useNavigate } from 'react-router-dom'
+
 
 const History = () => {
 
-  const{history} = useSelector(state=>state)   // get required data from store
+  const navigate = useNavigate()
+
+  useEffect(()=>{
+   
+    navigate("hist-list")
+
+  },[])
+  
 
   return (
-    <div>
-     <h1>History</h1>
-     <div>
-      {
-        history.map((val)=>{
-          return <a className='hist-a'>{val}</a>
-        })
-      }
-     </div>
+    <div style={{border:"1px solid",height:"500px",width:"90%"}}>
+     
+     // this container is used to show history list 
+     // and details when word in history list is clicked
+     
     </div>
   )
 }

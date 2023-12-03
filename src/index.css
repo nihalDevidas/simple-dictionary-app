@@ -2,6 +2,9 @@
     padding:0;
     margin:0
 }
+html,body{
+    height:100%
+}
 
 .navBar{
    
@@ -96,4 +99,9 @@ a{
     font-size: 19px;
     display: block;
     text-decoration: underline;
+    padding: 5px 0px;
+}
+
+.hist-list-container{
+    padding: 10px 30px;
 }

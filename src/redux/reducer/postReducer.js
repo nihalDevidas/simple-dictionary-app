@@ -23,7 +23,7 @@ const postReducer = (state = initialState, actions)=>{
 
           case STORE_HISTORY_DATA : 
                                  let arr = [...state.history]
-                                     arr.push(actions.word)
+                                     arr.unshift(actions.word)
                                      return{...state, history : [...arr]}
 
           default : return state 
